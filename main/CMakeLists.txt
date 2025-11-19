@@ -1,0 +1,21 @@
+idf_component_register(
+                        SRCS  "main.c" 
+                              "LCD_Driver/ST7701S.c" 
+                              "ui/screens.c"
+                              "ui/ui.c"
+                              "ui/images.c"
+                              "ui/screens.c"
+                              "ui/styles.c"
+                              "ui/ui_image_logo_prueba_1.c"
+                              "ui/ui_font_lexenblack.c"
+                              "ui/ui_font_lexend.c"
+                              "ui/ui_font_lexenlight.c"
+                              "ui/ui_image_image1_2_4.c"
+                              "ui/ui_image_image1_8.c"
+                              "ui/ui_image_path7_2.c"
+                              "ui/ui_image_path7_1_5.c"
+
+                        INCLUDE_DIRS "./LCD_Driver"
+                                     "./ui/"
+                                     "."
+                        )
